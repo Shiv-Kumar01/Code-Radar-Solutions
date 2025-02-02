@@ -10,7 +10,7 @@ int main() {
     char a;
     scanf("%d",&a);
     a = tolower(a);
-    if(a=="a"){
+    if(a=='a'){
         printf("Excellent");
     }
     else if(a=='b'){
