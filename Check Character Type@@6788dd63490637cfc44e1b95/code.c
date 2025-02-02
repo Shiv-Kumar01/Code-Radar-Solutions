@@ -21,7 +21,7 @@ int main() {
         printf("Digit");
     }
     else{
-        printf("Special Charcater");
+        printf("Special Charcacter");
     }
 
     return 0;
