@@ -27,7 +27,7 @@ else if(a=='f'){
 }
 else{
     printf(
-        "Invalid Grade"
+        "Invalid grade"
     );
 }
     return 0;
