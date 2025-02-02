@@ -11,14 +11,14 @@ int main() {
     ch = tolower(ch);
     if(isalpha(ch)){
         if (ch=='a' || ch=='e' ||ch=='i' || ch=='o' || ch=='u'){
-            printf("vowel");
+            printf("Vowel");
         }
         else{
             printf("Consonant");
         }
     }
     else{
-        printf("Special charcater");
+        printf("Special Charcater");
     }
 
     return 0;
