@@ -16,7 +16,7 @@ int main() {
     else if(a>=80){
         printf("B");
     }
-    else if(
+    else if(a>=70)(
         printf(
             "C"
         );
