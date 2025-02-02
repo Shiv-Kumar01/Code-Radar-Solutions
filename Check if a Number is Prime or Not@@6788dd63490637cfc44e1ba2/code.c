@@ -12,7 +12,7 @@ int main() {
     }
     else {
         for(i=2;i*i<=a;i++){
-            if(i%2==0){
+            if(a%i==0){
                 printf("Not Prime");
             }
             else{
