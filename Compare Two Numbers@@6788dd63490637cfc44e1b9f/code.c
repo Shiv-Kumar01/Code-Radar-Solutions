@@ -15,9 +15,7 @@ int main() {
         printf("Second");
     }
     else{
-        print(
-            "Equal"
-        );
+        print("Equal");
     }
     return 0;
 }
