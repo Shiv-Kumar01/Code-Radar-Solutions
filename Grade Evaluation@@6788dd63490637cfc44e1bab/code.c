@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<ctype.h>
 
 
 char* welcome() {
@@ -8,20 +9,26 @@ char* welcome() {
 int main() {
     char a;
     scanf("%d",&a);
-    if(a=='A'){
+    a = tolower(a);
+    if(a=='a'){
         printf("Excellent");
     }
-    else if(a=='B'){
+    else if(a=='b'){
         printf("Good");
     }
-    else if(a=='C'){
+    else if(a=='c'){
         printf("Average");
     }
-    else if(a=='D'){
+    else if(a=='d'){
         printf("Below Average");
     }
-else if(a=='F'){
+else if(a=='f'){
     printf("Fail");
+}
+else{
+    printf(
+        "Invalid Grade"
+    );
 }
     return 0;
 }
