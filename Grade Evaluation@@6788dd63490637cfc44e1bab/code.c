@@ -8,7 +8,7 @@ char* welcome() {
 
 int main() {
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     a = tolower(a);
     if(a=='a'){
         printf("Excellent");
