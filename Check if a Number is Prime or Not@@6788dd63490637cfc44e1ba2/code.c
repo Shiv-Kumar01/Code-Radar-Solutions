@@ -5,25 +5,24 @@ char* welcome() {
 }
 
 int main() {
-    int a,i;
+    int a,i,c = 1;
     scanf("%d",&a);
     if(a<=1){
-        printf("Not Prime");
+        c = 0;
     }
     
     
     else {
         for(i=2;i*i<=a;i++){
             if(a%i==0){
-                printf("Not Prime");
+                c =0;
                 break;
                 
             } 
-        else{
-                printf("Prime");
-                break;
-            }
+        
         }
     }
+    if (c) printf("Prime");
+    else printf("Not Prime");
     return 0;
 }
