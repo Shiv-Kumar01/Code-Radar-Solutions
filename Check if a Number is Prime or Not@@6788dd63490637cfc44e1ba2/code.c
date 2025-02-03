@@ -10,9 +10,8 @@ int main() {
     if(a<=1){
         printf("Not Prime");
     }
-    else if(a==2){
-        printf("Prime");
-    }
+    
+    
     else {
         for(i=2;i*i<=a;i++){
             if(a%i==0){
