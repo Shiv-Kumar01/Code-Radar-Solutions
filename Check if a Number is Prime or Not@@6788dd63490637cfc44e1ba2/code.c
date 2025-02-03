@@ -17,6 +17,7 @@ int main() {
         for(i=2;i*i<=a;i++){
             if(a%i==0){
                 printf("Not Prime");
+                break;
                 return 0;
             } 
         else{
