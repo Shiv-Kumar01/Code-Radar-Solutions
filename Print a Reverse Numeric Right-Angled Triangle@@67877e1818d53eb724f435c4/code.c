@@ -10,9 +10,9 @@ int main() {
         "%d",&a
     );
     for(i=1;i<=a;i++){
-        for(j=a;j>=a;j--){
+        for(j=1;j<=a;j++){
             printf("%d",j);
-        }
+        }printf("\n");
     }
     return 0;
 }
