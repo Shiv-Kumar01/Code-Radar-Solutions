@@ -19,6 +19,6 @@ int main() {
             if(j!=1 || j!=a){
                 printf(" ");
             }
-        }printf("\n")
+        }printf("\n");
     }
 }
