@@ -9,7 +9,8 @@ int main(){
             for(j=1;j<=2*i-1;j++){
                 printf("*");
             }
-            printf("\n");
+            printf("\n");}
+            for(i=1;i<=a;i++){
             int x = a-1;
             for(j=x;j>=1;j--){
                 for(k=1;k>=x-j;j++){
@@ -18,8 +19,9 @@ int main(){
                 for(j=1;j<=x*2-1;j++){
                 printf("*");
             }
-            
+            printf("\n");
             }
+            
         }
     
 }
