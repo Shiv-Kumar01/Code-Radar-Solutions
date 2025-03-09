@@ -10,19 +10,15 @@ int main(){
                 printf("*");
             }
             printf("\n");}
-            for(i=1;i<=a;i++){
-            int x = a-1;
-            for(j=x;j>=1;j--){
-                printf(" ");
-                for(k=1;k<=x-j;k++){
-                printf(" ");
-            }
-                for(k=1;k<=j*2-1;k++){
-                printf("*");
-            }
-            printf("\n");
-            }
+            for (i = a - 1; i >= 1; i--) {
+        for (j = 1; j <= a - i; j++) {
+            printf(" ");
+        }
+        for (k = 1; k <= 2 * i - 1; k++) {
+            printf("*");
+        }
+        printf("\n");
+    }
             
         }
     
-}
