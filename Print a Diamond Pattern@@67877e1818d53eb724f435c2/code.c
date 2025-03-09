@@ -13,6 +13,7 @@ int main(){
             for(i=1;i<=a;i++){
             int x = a-1;
             for(j=x;j>=1;j--){
+                printf(" ");
                 for(k=1;k<=x-j;k++){
                 printf(" ");
             }
