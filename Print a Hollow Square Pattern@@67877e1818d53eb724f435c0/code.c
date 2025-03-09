@@ -15,7 +15,7 @@ int main() {
         }
         else{
 
-        }for(j=1;j<=a;j++){
+        for(j=1;j<=a;j++){
             if(j!=1 || j!=a){
                 printf(" ");
             }
