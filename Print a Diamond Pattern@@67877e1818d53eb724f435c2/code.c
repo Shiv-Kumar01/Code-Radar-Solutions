@@ -16,7 +16,7 @@ int main(){
                 for(k=1;k<=x-j;k++){
                 printf(" ");
             }
-                for(k=1;k<=x*2-1;k++){
+                for(k=1;k<=j*2-1;k++){
                 printf("*");
             }
             printf("\n");
