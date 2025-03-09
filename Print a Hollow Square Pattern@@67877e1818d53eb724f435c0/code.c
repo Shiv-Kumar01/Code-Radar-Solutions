@@ -8,7 +8,7 @@ int main() {
     int i,j,k,a;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
-        if(i==1 or i==a){
+        if(i==1 || i==a){
             for(j=1;j<=a;j++){
                 printf("*");
             }
