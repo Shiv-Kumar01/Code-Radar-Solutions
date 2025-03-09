@@ -16,11 +16,11 @@ int main() {
         else{
 
         for(j=1;j<=a;j++){
-            if(j!=1 && j!=a){
-                printf(" ");
+            if(j==1 || j==a){
+                printf("*");
             }
             else{
-                printf("*");
+                printf(" ");
             }
         }printf("\n");
     }}
