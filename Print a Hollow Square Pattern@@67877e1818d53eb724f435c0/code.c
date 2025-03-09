@@ -5,19 +5,20 @@ char* welcome() {
 }
 
 int main() {
-    int i,j,k, m;
-    scanf("%d",&m);
-    for(int i=1,i<=m;i++){
-        if(i!=1 && i!=m){
-        for(int j=1;j<=m;j++){
-            printf("*");
-        }}
-        else{printf(
-            "*"
-        );
-        for(k=1;k<=m-i;k++){
-            printf(" ");
-        }} printf(" \n");
+    int i,j,k,a;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++){
+        if(i==1 or i==a){
+            for(j=1;j<=a;j++){
+                printf("*");
+            }
+        }
+        else{
+
+        }for(j=1;j<=a;j++){
+            if(j!=1 || j!=a){
+                printf(" ");
+            }
+        }printf("\n")
     }
-    return 0;
 }
