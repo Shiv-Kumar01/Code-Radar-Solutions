@@ -6,13 +6,11 @@ int main(){
         for(j=1;j<=a-i;j++){
             printf(" ");
         }
-        for(j=1;j<=i;j++){
-            if(i%2==0){
-                (j%2==0)? printf("1 ") : printf("0 ");
-            }
-            else{
-                (j%2==0)? printf("0 ") : printf("1 ");
-            }
+        for(j=1;j<=i\2;j++){
+            printf("%d",j);
+        }
+        for(j=a-1;j>=1;j++){
+            printf("%d",j);
         }
         printf("\n");
         
