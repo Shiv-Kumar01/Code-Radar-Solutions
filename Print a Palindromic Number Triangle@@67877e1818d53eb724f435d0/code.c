@@ -6,14 +6,13 @@ int main(){
         for(j=1;j<=a-i;j++){
             printf(" ");
         }
-        for(k=1;k<=2*i-1;k++){
-        for(j=1;j<=i/2;j++){
-            printf("%d",j);
+        for(j=1;j<=2*a-1;j++){
+            if(j>i){
+                for(j=a-1;j>=1;j--){
+                    printf("%d",j);
+                }
+            }
+            else{
+            printf("%d",j);}
         }
-        for(j=a-1;j>=1;j--){
-            printf("%d",j);
-        }
-        printf("\n");
-        }
-        
     }}
