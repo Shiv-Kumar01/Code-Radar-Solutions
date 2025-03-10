@@ -5,8 +5,8 @@ int main(){
     for(i=1;i<=a;i++){
         for(j=1;j<=i;j++){
         printf("%c ",k);
-        
-        }k++;
+        k++;
+        } k=65;
         printf("\n");
         
     }
