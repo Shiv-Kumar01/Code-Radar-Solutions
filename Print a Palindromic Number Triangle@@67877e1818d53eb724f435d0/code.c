@@ -7,10 +7,10 @@ int main(){
         for(j=1;j<=n-i;j++){
             printf(" ");
         }
-        for(k=1;k<=i;k++){
+        for(j=1;j<=i;j++){
             printf("%d",j);
         }
-        for(int m=a-1;m>=1;m--){
+        for(int j=a-1;j>=1;j--){
             printf("%d",j);
         }
         printf("\n");
