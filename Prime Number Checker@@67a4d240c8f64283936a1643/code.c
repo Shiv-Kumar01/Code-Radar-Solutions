@@ -10,9 +10,9 @@ int isprime(int n ){
                 
             }
             else{
-                printf{
+                printf(
                     "1"
-                };
+                );
             }
         }
     }
