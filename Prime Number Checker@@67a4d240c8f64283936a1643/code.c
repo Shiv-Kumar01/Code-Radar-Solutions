@@ -18,10 +18,11 @@ int isprime(int n ){
     }
 }
 int main(){
-    int n,num;
+    int n;
     scanf("%d",&n);
     for(int i =1 ; i<=n;i++){
+        int num;
         scanf("%d",&num);
-        printf("%d",isprime(num));
+        printf("%d\n",isprime(num));
     }
 }
