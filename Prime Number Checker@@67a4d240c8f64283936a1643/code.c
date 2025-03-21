@@ -7,7 +7,7 @@ int isprime(int n ){
         for(int i =2; i*i<=n;i++){
             if(n%2==0){
                 printf("0");
-                return ;
+                
             }
             else{
                 printf{
