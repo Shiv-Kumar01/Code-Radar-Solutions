@@ -11,26 +11,5 @@ int isPrime(int n) {
     return 1;
 }
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    
-    int nums[n]; 
-    int results[n]; 
 
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &nums[i]);
-    }
-
-    
-    for (int i = 0; i < n; i++) {
-        results[i] = isPrime(nums[i]);
-    }
-
-    for (int i = 0; i < n; i++) {
-        printf("%d\n", results[i]);
-    }
-
-    return 0;
-}
 
