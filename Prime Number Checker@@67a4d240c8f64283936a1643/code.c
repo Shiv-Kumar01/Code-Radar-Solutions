@@ -5,7 +5,7 @@ int prime(int n ){
     }
     else{
         for(int i =2; i*i<=n;i++){
-            if(a%2==0){
+            if(n%2==0){
                 printf("0");
                 return ;
             }
