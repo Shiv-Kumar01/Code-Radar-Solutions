@@ -1,0 +1,27 @@
+#include <stdio.h>
+int prime(int n ){
+    if (n<=1){
+        printf("0");
+    }
+    else{
+        for(int i =2; i*i<=n;i++){
+            if(a%2==0){
+                printf("0");
+                return ;
+            }
+            else{
+                printf{
+                    "1"
+                };
+            }
+        }
+    }
+}
+int main(){
+    int n,num;
+    scanf("%d",&n);
+    for(int i = 1; i<=n;i++){
+        scanf("%d",num);
+        prime(num);
+    }
+}
