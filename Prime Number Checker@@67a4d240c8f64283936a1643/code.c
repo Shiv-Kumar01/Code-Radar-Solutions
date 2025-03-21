@@ -6,12 +6,12 @@ int isprime(int n ){
     else{
         for(int i =2; i*i<=n;i++){
             if(n%2==0){
-                printf("0");
+                printf("0\n");
                 
             }
             else{
                 printf(
-                    "1"
+                    "1\n"
                 );
             }
         }
@@ -20,8 +20,8 @@ int isprime(int n ){
 int main(){
     int n,num;
     scanf("%d",&n);
-    for(int i = 1; i<=n;i++){
-        scanf("%d",num);
+    for(int i =1 ; i<=n;i++){
+        scanf("%d",&num);
         isprime(num);
     }
 }
