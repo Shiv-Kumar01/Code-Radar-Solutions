@@ -17,6 +17,6 @@ int main(){
     for(int i =1 ; i<=n;i++){
         int num;
         scanf("%d",&num);
-        printf("%d\n",isPrime(num));
     }
+    printf("%d\n",isPrime(num));
 }
