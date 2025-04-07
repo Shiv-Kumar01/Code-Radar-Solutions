@@ -5,10 +5,10 @@ int selectionSort(int arr[],int n){
             if (arr[j] < arr[minindx]){
                 minindx = j;
             } 
-            int temp = arr[minindx];
+        }
+        int temp = arr[minindx];
             arr[minindx] = arr[i];
             arr[i]= temp;
-        }
     }
 }
 int printArray(int arr[],int n){
