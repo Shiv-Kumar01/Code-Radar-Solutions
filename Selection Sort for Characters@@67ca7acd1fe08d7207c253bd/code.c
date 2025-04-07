@@ -14,7 +14,7 @@ char selectionSort(int arr[],int n){
 char printArray(int arr[],int n){
     for(int i=0;i<n;i++){
         printf(
-            "%d ",arr[i]
+            "%c ",arr[i]
         );
     }
 }
