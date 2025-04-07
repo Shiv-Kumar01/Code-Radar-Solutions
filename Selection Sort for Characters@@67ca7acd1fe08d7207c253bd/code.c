@@ -11,7 +11,7 @@ int selectionSort(char arr[],int n){
             arr[i]= temp;
     }
 }
-int temp[n];
+int temp[int n];
 for(int i=0;i<n;i++){
     temp[i] = arr[i];
 }
