@@ -11,10 +11,14 @@ int selectionSort(char arr[],int n){
             arr[i]= temp;
     }
 }
-char printArray(int arr[],int n){
+int temp[n];
+for(int i=0;i<n;i++){
+    temp[i] = arr[i];
+}
+char printArray(int temp[],int n){
     for(int i=0;i<n;i++){
         printf(
-            "%c ",arr[i]
+            "%c ",temp[i]
         );
     }
 }
