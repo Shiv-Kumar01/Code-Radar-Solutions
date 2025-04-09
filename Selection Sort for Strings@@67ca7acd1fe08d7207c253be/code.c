@@ -6,9 +6,9 @@ void selectionSort(char arr[][],int n){
                 minindx = j;
             } 
         }
-        char temp = arr[minindx];
-            arr[minindx] = arr[i];
-            arr[i]= temp;
+        char temp[] = arr[i];
+            arr[i] = arr[minindx];
+            arr[minindx]= temp;
     }
 }
 void printArray(char arr[][],int n){
